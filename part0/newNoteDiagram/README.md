@@ -24,4 +24,5 @@ sequenceDiagram
     Browser->>+Server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     Note right of Browser: Browser makes a GET request for JSON file
     Server-->>-Browser: JSON Object (Data)
+```
     Note right of Browser: Browser executes event listener to render data on the page
